@@ -44,9 +44,9 @@ include_directories("/usr/local/tensorflow/include/")
 
 # IMPORTANT: Protobuf includes. Depends on the anaconda path
 # This is Azure DLVM (not sure if DSVM is the same)
-include_directories("/data/anaconda/envs/py36/lib/python3.6/site-packages/tensorflow/include/")
+#include_directories("/data/anaconda/envs/py36/lib/python3.6/site-packages/tensorflow/include/")
 # This is a standard install of Anaconda with p36 environment
-include_directories("${MYHOME}/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/include/")
+#include_directories("${MYHOME}/anaconda3/envs/py36/lib/python3.6/site-packages/tensorflow/include/")
 
 target_link_libraries(tf_detector_example
     ${CUDA_LIBRARIES}
