@@ -2,6 +2,10 @@
 
 The completed application runs any [Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.mdTensorflow) style object detector in Tensorflow mode (default) and an Inception V2 SSD detector converted from Tensorflow graph to UFF format recognized by TensorRT in TensorRT mode (-t).
 
+## Setting up the environment
+
+Read these [series of posts](https://viralfsharp.com/2019/03/25/supercharging-object-detection-in-video-from-glacial-to-lightning-speed/)
+
 ## Building the app
 
 * Clone the [repo](https://github.com/fierval/fast_od).
